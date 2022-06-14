@@ -45,6 +45,7 @@
     self.label.attributedText = [self next];
     //    self.label.userInteractionEnabled = NO;
     self.label.backgroundColor = [UIColor colorWithRed:0x11/255.0 green:0x11/255.0 blue:0x11/255.0 alpha:1];
+    self.label.editable = NO;
 
     self.time.text = [self nextTime];
 
